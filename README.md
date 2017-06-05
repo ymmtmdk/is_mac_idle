@@ -1,15 +1,11 @@
 # IsMacIdle
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/is_mac_idle`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'is_mac_idle'
+gem 'is_mac_idle', :github => 'ymmtmdk/is_mac_idle'
 ```
 
 And then execute:
@@ -21,8 +17,13 @@ Or install it yourself as:
     $ gem install is_mac_idle
 
 ## Usage
+```ruby
+require "is_mac_idle"
 
-TODO: Write usage instructions here
+p IsMacIdle::brightness
+p IsMacIdle::idle_time
+p IsMacIdle::net_traffic
+```
 
 ## Development
 
