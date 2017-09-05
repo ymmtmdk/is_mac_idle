@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'is_mac_idle', :github => 'ymmtmdk/is_mac_idle'
+gem 'is_mac_idle'
 ```
 
 And then execute:
@@ -33,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/is_mac_idle.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ymmtmdk/is_mac_idle.
 
 
 ## License
